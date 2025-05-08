@@ -73,3 +73,17 @@ create_table()
 books = scrape_book(URL)
 save_to_json(books)
 save_to_csv(books)
+
+
+
+
+# git init =>initialize
+# git status
+# git diff
+#git commit -m "your mmse"
+#########################
+#1.change the code
+#2.git add.
+#3.git commit -m "your msg"
+#4.git push
+#############################3
