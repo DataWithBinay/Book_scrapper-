@@ -51,8 +51,8 @@ def scrape_book(url):
         price_text = book.find("p",class_ = "price_color").text
         currency = price_text[0]
         price = float(price_text[1:])
-        print(title,currency,price)
-        # insert_book(title,currency,price)
+        # print(title,currency,price)
+        insert_book(title,currency,price)
         books.append(
             {
                 "title":title,
